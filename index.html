@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Press X to Jason</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background"></div>
+<div class="shade"></div>
+
+<main>
+  <div class="title">PRESS <span>X</span> TO JASON</div>
+
+  <button id="jason" aria-label="Press X to Jason">
+    <span class="x">X</span>
+    <span>PRESS X<br><small>TO JASON</small></span>
+    <span class="x">X</span>
+  </button>
+
+  <p class="hint"><kbd>X</kbd> press the <b>X</b> key or click the button</p>
+
+  <div class="stats">
+    <div><small>SOUNDS PLAYED</small><strong id="played">0</strong></div>
+    <div class="line"></div>
+    <div><small>TOTAL SOUNDS</small><strong id="total">0</strong></div>
+  </div>
+
+  <div id="status">READY</div>
+</main>
+
+<div class="volume">
+  <span>🔊</span>
+  <input id="volume" type="range" min="0" max="1" step=".01" value=".8">
+  <span id="volText">80%</span>
+</div>
+
+<footer>RANDOM JASON SOUNDS</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
