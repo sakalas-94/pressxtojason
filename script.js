@@ -5,8 +5,16 @@
 
 const sounds = [
    "sounds/Jason 1.mp3",
+   "sounds/Jason 1.1.mp3",
+   "sounds/Jason 1.2.mp3",
    "sounds/Jason 2.mp3",
-   "sounds/Jason 3.mp3"
+   "sounds/Jason 2.1.mp3",
+   "sounds/Jason 2.2.mp3",
+   "sounds/Jason 3.mp3",
+   "sounds/Jason 3.1.mp3",
+   "sounds/Jason 3.2.mp3",
+   "sounds/Jason 3.3.mp3",
+   "sounds/Jason Slow.mp3"
 ];
 
 const button = document.getElementById("jason");
