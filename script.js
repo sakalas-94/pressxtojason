@@ -5,15 +5,15 @@
 
 const sounds = [
    "sounds/Jason 1.mp3",
-   "sounds/Jason 1.1.mp3",
-   "sounds/Jason 1.2.mp3",
+   "sounds/Jason 1.1.wav",
+   "sounds/Jason 1.2.wav",
    "sounds/Jason 2.mp3",
-   "sounds/Jason 2.1.mp3",
-   "sounds/Jason 2.2.mp3",
+   "sounds/Jason 2.1.wav",
+   "sounds/Jason 2.2.wav",
    "sounds/Jason 3.mp3",
-   "sounds/Jason 3.1.mp3",
+   "sounds/Jason 3.1.wav",
    "sounds/Jason 3.2.mp3",
-   "sounds/Jason 3.3.mp3",
+   "sounds/Jason 3.3.wav",
    "sounds/Jason Slow.mp3"
 ];
 
