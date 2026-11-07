@@ -3,7 +3,11 @@
 // "sounds/jason-1.mp3",
 // "sounds/jason-2.mp3",
 
-const sounds = [];
+const sounds = [
+   "sounds/Jason 1.mp3",
+   "sounds/Jason 2.mp3",
+   "sounds/Jason 3.mp3"
+];
 
 const button = document.getElementById("jason");
 const volume = document.getElementById("volume");
